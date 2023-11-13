@@ -2,7 +2,7 @@
   "name": "maris/document-unit-utilities",
   "description": "Набор абстрактных утилит для работы с номерами документов РФ.",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "symfony-bundle",
   "authors": [
     {
