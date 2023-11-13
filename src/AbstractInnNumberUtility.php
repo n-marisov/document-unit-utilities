@@ -92,6 +92,13 @@ abstract class AbstractInnNumberUtility implements InnNumberUtilityInterface
                 );
         }
 
+        if(!$check->valid)
+            return $this->initError(
+                message: 'Не сошлась контрольная сумма.',
+                code: 3,
+                return: false
+            );
+
         return true;
     }
 
