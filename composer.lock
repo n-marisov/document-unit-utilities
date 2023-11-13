@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7fa13f3209cf4b43f9fabd19ab7adb79",
+    "packages": [
+        {
+            "name": "maris/document-unit-interfaces",
+            "version": "0.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/n-marisov/document-unit-interfaces.git",
+                "reference": "8408e32df06dd8ddaebd15eca8def0ccb93b9958"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/n-marisov/document-unit-interfaces/zipball/8408e32df06dd8ddaebd15eca8def0ccb93b9958",
+                "reference": "8408e32df06dd8ddaebd15eca8def0ccb93b9958",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 8.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Maris\\Interfaces\\Document\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Марисов Николай Андреевич",
+                    "email": "marisov123456789@mail.ru"
+                }
+            ],
+            "description": "Набор интерфейсов определяющий правило работы с объектами документов и номеров документов РФ.",
+            "support": {
+                "issues": "https://github.com/n-marisov/document-unit-interfaces/issues",
+                "source": "https://github.com/n-marisov/document-unit-interfaces/tree/v0.0.3"
+            },
+            "time": "2023-11-13T11:04:42+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">= 8.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
